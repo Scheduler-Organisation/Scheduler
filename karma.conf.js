@@ -33,7 +33,7 @@ module.exports = function (config) {
       ]
     },
     reporters: [],
-    browsers: ['ChromeHeadless'],
+    browsers: ['ChromeHeadless', 'Chrome'],
     customLaunchers:{
       HeadlessChrome:{
         base: 'ChromeHeadless',
