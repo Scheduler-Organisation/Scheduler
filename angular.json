@@ -91,6 +91,14 @@
             "scripts": [],
             "karmaConfig": "karma.conf.js"
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://Scheduler-Organisation.github.io/Scheduler/",
+            "name": "Angular Schule Team",
+            "email": "esbenvensel.fogh@gmail.com"
+          }
         }
       }
     }
