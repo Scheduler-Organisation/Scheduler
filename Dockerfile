@@ -2,6 +2,8 @@
 
 FROM --platform=$BUILDPLATFORM node:18-bullseye-slim as builder
 
+EXPOSE 4200
+
 RUN mkdir /project
 WORKDIR /project
 
